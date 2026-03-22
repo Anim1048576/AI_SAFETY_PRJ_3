@@ -1,0 +1,118 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Build / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+uvicorn.log
+
+# =========================
+# Runtime data
+# =========================
+data/
+uploads/
+tmp/
+temp/
+
+# Keep placeholder files if needed
+!data/.gitkeep
+!uploads/.gitkeep
+
+# =========================
+# AI / video / image outputs
+# =========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+
+# But allow docs/assets if you really want tracked examples
+!docs/**/*.png
+!docs/**/*.jpg
+!assets/**/*.png
+!assets/**/*.jpg
+
+# =========================
+# Model / large artifacts
+# =========================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+weights/
+models/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Local database / misc
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Generated docs / reports
+# =========================
+reports/
